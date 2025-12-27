@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VRC Institucional</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/logo pp.png" alt="Logo da Empresa">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#parceiros">Parceiros</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Quem somos</h1>
+                    <p>A VRC nasceu da vontade de entregar sempre o melhor produto com o melhor atendimento, há cerca de 5 anos. Desde o início, nosso propósito foi superar a simples relação de compra e venda, tornando-nos um braço estratégico para nossos clientes. Atuamos como o elo de confiança entre grandes indústrias e o mercado, selecionando rigorosamente as soluções que representamos para garantir que cada entrega agregue valor real e competitividade ao negócio de quem confia no nosso trabalho.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="about">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Valdo Azevedo</h2>
+                    <p>Sou um profissional do ramo de equipamentos para cozinhas e restaurantes, trabalhando há 20 anos com vendas de equipamentos em lojas do setor. Hoje, como representante comercial, busco atender sempre com muita presteza e dedicação os meus clientes e parceiros, empregando tudo que aprendi nesse período de trabalho, formando parceiros e amigos no mercado que atuo.</p>
+                </div>
+                <div class="about-image">
+                    <img src="img/valdo foto.png" alt="Valdo Azevedo">
+                </div>
+            </div>
+        </section>
+
+        <section id="parceiros" class="partners">
+            <h2>Empresas Parceiras</h2>
+            <div class="partners-grid">
+                <div class="partner-card"><img src="assets/parceiro1.png" alt="Parceiro 1"></div>
+                <div class="partner-card"><img src="assets/parceiro2.png" alt="Parceiro 2"></div>
+                <div class="partner-card"><img src="assets/parceiro3.png" alt="Parceiro 3"></div>
+                <div class="partner-card"><img src="assets/parceiro4.png" alt="Parceiro 4"></div>
+            </div>
+        </section>
+
+        <section id="contato" class="contact">
+            <h2>Contato</h2>
+            <div class="social-links">
+                <a class="social-btn linkedin" href="https://www.linkedin.com/in/valdo-azevedo-15826b38/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a class="social-btn whatsapp" href="https://wa.me/11971357477" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                <a class="social-btn email" href="mailto:vrc.repres@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i> E-mail</a>
+            </div>
+
+            <form class="contact-form" action="https://formspree.io/f/mdaogzby" method="POST">
+                <h3>Fale conosco</h3>
+                <div class="form-row">
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email" name="email" placeholder="seu@exemplo.com" required>
+                </div>
+                <div class="form-row">
+                    <label for="telefone">Telefone</label>
+                    <input id="telefone" type="tel" name="telefone" placeholder="(11) 9 1234-5678">
+                </div>
+                <div class="form-row">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva sua mensagem" required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Todos os direitos reservados. By Tandara Sartore</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
